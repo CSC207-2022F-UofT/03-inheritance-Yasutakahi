@@ -113,7 +113,7 @@ public abstract class Bag {
             return null;
         } else {
             numberOfContents --;
-            return contents.remove(numberOfContents-1);
+            return contents.remove(numberOfContents);
 
         }
     }
